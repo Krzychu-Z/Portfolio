@@ -1,0 +1,9 @@
+.root {
+    -fx-background-image:url('IMG_5636.JPG');
+    -fx-background-size:cover, auto;
+}
+
+.main {
+    -fx-background-color: "white";
+    -fx-padding: 5 75 5 5;
+}

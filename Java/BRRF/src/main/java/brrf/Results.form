@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="brrf.Results">
+  <grid id="27dc6" binding="resultsApp" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="870"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="2c301" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c1db3" binding="firstField" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14079186"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9df0a" class="javax.swing.JLabel" binding="firstOptionSetOff">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="26"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="10:00"/>
+                </properties>
+              </component>
+              <hspacer id="2994d">
+                <constraints>
+                  <grid row="4" column="1" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="d6c6a" class="javax.swing.JLabel" binding="firstOptionArrTime">
+                <constraints>
+                  <grid row="5" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="26"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="12:00"/>
+                </properties>
+              </component>
+              <component id="fc6f4" class="javax.swing.JLabel" binding="firstOptionDeptStation">
+                <constraints>
+                  <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="20"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Racibórz"/>
+                </properties>
+              </component>
+              <component id="9cab5" class="javax.swing.JLabel" binding="firstOptionArrStation">
+                <constraints>
+                  <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="20"/>
+                  <foreground color="-1"/>
+                  <text value="Kędzierzyn-Koźle"/>
+                </properties>
+              </component>
+              <component id="c8dd1" class="javax.swing.JLabel" binding="firstOptionHopCount">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="2 przesiadki"/>
+                </properties>
+              </component>
+              <component id="da61f" class="javax.swing.JButton" binding="firstGeneratePDFButton">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12556801"/>
+                  <font name="Roboto Light" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Wygeneruj PDF"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7f88e" binding="secondField" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14079186"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="722b0" class="javax.swing.JLabel" binding="secondOptionSetOff">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="26"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="10:00"/>
+                </properties>
+              </component>
+              <hspacer id="1f1da">
+                <constraints>
+                  <grid row="4" column="1" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="8d06" class="javax.swing.JLabel" binding="secondOptionArrTime">
+                <constraints>
+                  <grid row="5" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="26"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="12:00"/>
+                </properties>
+              </component>
+              <component id="e82c3" class="javax.swing.JLabel" binding="secondOptionDeptStation">
+                <constraints>
+                  <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="20"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Racibórz"/>
+                </properties>
+              </component>
+              <component id="f6819" class="javax.swing.JLabel" binding="secondOptionArrStation">
+                <constraints>
+                  <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="20"/>
+                  <foreground color="-1"/>
+                  <text value="Kędzierzyn-Koźle"/>
+                </properties>
+              </component>
+              <component id="c4bec" class="javax.swing.JLabel" binding="secondOptionHopCount">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="2 przesiadki"/>
+                </properties>
+              </component>
+              <component id="51288" class="javax.swing.JButton" binding="secondGeneratePDFButton">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12556801"/>
+                  <font name="Roboto Light" size="16"/>
+                  <foreground color="-1"/>
+                  <text value="Wygeneruj PDF"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e5fbe" binding="thirdField" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079186"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="717de" class="javax.swing.JLabel" binding="thirdOptionSetOff">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="26"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="10:00"/>
+            </properties>
+          </component>
+          <hspacer id="710ee">
+            <constraints>
+              <grid row="4" column="1" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="afdc8" class="javax.swing.JLabel" binding="thirdOptionArrTime">
+            <constraints>
+              <grid row="5" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="26"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="12:00"/>
+            </properties>
+          </component>
+          <component id="e4ebb" class="javax.swing.JLabel" binding="thirdOptionDeptStation">
+            <constraints>
+              <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="20"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Racibórz"/>
+            </properties>
+          </component>
+          <component id="922e7" class="javax.swing.JLabel" binding="thirdOptionArrStation">
+            <constraints>
+              <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="20"/>
+              <foreground color="-1"/>
+              <text value="Kędzierzyn-Koźle"/>
+            </properties>
+          </component>
+          <component id="1def7" class="javax.swing.JLabel" binding="thirdOptionHopCount">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="16"/>
+              <foreground color="-1"/>
+              <text value="2 przesiadki"/>
+            </properties>
+          </component>
+          <component id="fddc9" class="javax.swing.JButton" binding="thirdGeneratePDFButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12556801"/>
+              <font name="Roboto Light" size="16"/>
+              <foreground color="-1"/>
+              <text value="Wygeneruj PDF"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="165dc" binding="fourthField" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14079186"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="382f5" class="javax.swing.JLabel" binding="fourthOptionSetOff">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="26"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="10:00"/>
+            </properties>
+          </component>
+          <hspacer id="da88e">
+            <constraints>
+              <grid row="4" column="1" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="eb7fe" class="javax.swing.JLabel" binding="fourthOptionArrTime">
+            <constraints>
+              <grid row="5" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="26"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="12:00"/>
+            </properties>
+          </component>
+          <component id="bec8" class="javax.swing.JLabel" binding="fourthOptionDeptStation">
+            <constraints>
+              <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="20"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="Racibórz"/>
+            </properties>
+          </component>
+          <component id="a6ad9" class="javax.swing.JLabel" binding="fourthOptionArrStation">
+            <constraints>
+              <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="20"/>
+              <foreground color="-1"/>
+              <text value="Kędzierzyn-Koźle"/>
+            </properties>
+          </component>
+          <component id="dba5c" class="javax.swing.JLabel" binding="fourthOptionHopCount">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="16"/>
+              <foreground color="-1"/>
+              <text value="2 przesiadki"/>
+            </properties>
+          </component>
+          <component id="8d6fd" class="javax.swing.JButton" binding="fourthGeneratePDFButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12556801"/>
+              <font name="Roboto Light" size="16"/>
+              <foreground color="-1"/>
+              <text value="Wygeneruj PDF"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4a59c" class="javax.swing.JButton" binding="generatePDFButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12556801"/>
+          <font name="Roboto Light" size="16"/>
+          <text value="Wygeneruj PDF"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
